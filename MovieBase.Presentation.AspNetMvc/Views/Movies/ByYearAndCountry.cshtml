@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Moviebase.Entities.Movie>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ByYearAndCountry</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Country
+            </th>
+            <th>
+                Year
+            </th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.Country
+            </td>
+            <td>
+                @item.Year
+            </td>
+        </tr>
+    }
+    
+    </table>
+	<p>@Html.ActionLink("Clear filter", "Index")</p>
+</body>
+</html>
+

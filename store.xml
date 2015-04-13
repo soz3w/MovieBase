@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<movies autoincrement="5">
+	<movie id="1" title="Top Gun" year="1986" country="USA"/>
+	<movie id="2" title="Star Wars IV: A New Hope" year="1977" country="USA"/>
+	<movie id="3" title="Quantum of Solace" year="2006" country="UK"/>
+	<movie id="4" title="Casino Royale" year="2008" country="UK"/>
+	<movie id="5" title="Mais où est donc passé la septième compagnie?" year="1973" country="France"/>
+</movies>
